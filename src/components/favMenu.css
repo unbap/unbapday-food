@@ -1,0 +1,69 @@
+.content {
+  background-color: white;
+  min-height: 200px;
+  padding-bottom: 20px;
+}
+
+.addNew {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.addNew > input {
+  flex-grow: 1;
+  font-size: 1.3em;
+}
+
+.addNew > * {
+  margin: 0.3em;
+  height: 100%;
+}
+
+.sortOpt {
+  text-align: center;
+}
+
+.sortOpt button {
+  margin: 0 5px;
+}
+
+.list > div {
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 1px solid black;
+}
+
+.vote {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 20px;
+  transition: 0.2s;
+  color: #666;
+}
+
+.vote:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.listitem {
+  display: flex;
+  align-items: center;
+  /* align-content: space-around; */
+}
+
+.name {
+  flex-grow: 1;
+}
+
+.already {
+  color: green;
+}
+
+.creator {
+  background-color: blanchedalmond;
+}
