@@ -65,6 +65,7 @@ function FavMenu() {
         <div className="addNew">
           <GrAddCircle size={30} />
           <input
+            placeholder="메뉴이름"
             ref={textRef}
             type="text"
             onKeyPress={(e) => {
